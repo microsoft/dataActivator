@@ -54,7 +54,7 @@ To begin creating a trigger from a Power BI report:
 2)	Choose a visual on the report for Data Activator to monitor. Make sure it is a supported visual type, as described in the previous section.
 3)	Click the ellipsis (“…”) at the top-right of the visual, and select “Trigger Action.”
 The following image shows an example of how to trigger an action from a visual that displays today’s sales for each store in a retail chain:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/018e83ee-dc1f-4a57-9133-87408c534d09)
+ ![image](https://github.com/microsoft/dataActivator/images/pbi_context_menu.png)
 
 ## Step 2: Create your Data Activator trigger.
 Next, define your trigger conditions and to create your trigger. In the “Create Alert” dialog that appears, do the following:
