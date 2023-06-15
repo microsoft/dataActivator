@@ -96,6 +96,7 @@ The following image shows the Azure Event Hubs dialog that contains the connecti
 3)	Give your event stream a name
 4)	Optionally provide a consumer group, if you do not wish to use the Default group
 5)	Click “Connect.”
+   
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/get_data_eh.png)
 
 Within a few seconds, your event hubs events will appear in your newly created event stream.
