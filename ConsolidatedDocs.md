@@ -196,10 +196,10 @@ If you now go into Design mode, you’ll see two objects have already been creat
 
 Data will start appearing as the simulator runs. Let’s try creating a new property to track the temperature of packages, and send an email if any package gets too hot.
 Start by selecting New Property from the ribbon. Select the edit icon or the name of the new property to rename it from Untitled:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/0dcb7b5b-e924-4a80-b44d-6627ffa1086f)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/rename_stream.png)
 
 The first step is to extract the temperature value from the events. From the toolbar at the bottom of the screen, choose Select -> Value from event.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/1401a31f-a8ed-4c9e-a256-8542fb24facd)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/select_value.png)
 
 On the new Select card, choose Temperature from the Value dropdown menu
  ![image](https://github.com/microsoft/dataActivator/assets/10352928/eb02bdf2-f89c-489e-8812-3a9cdd9d349a)
