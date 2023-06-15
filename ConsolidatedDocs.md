@@ -109,7 +109,7 @@ In the Data view, select Create object from the menu on the column in the data p
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/table_create_object.png)
 
 Then, enter a name for your object.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/7a45adf7-9437-4456-8ee9-1b0d3a52cde4)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/name_object.png)
 
 When you create an object you’ll be navigated to Design mode with the event stream for the new object selected. The preview in the following image shows you the events that were received split out by the unique values from the ID column.
  ![image](https://github.com/microsoft/dataActivator/assets/10352928/b7214d25-c0b6-4f0a-87b3-aae215e2de24)
