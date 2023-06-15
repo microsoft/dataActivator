@@ -156,11 +156,11 @@ Before you set up an action, you must define a property with a trigger condition
 To send an email notification when your trigger condition met, begin by adding a “Act” step to your trigger definition. 
 
 In this screenshot, the user is monitoring a fleet of electric scooters, and wants to send an email if the battery level on any scooter drops below 10%. The user has clicked “Act” to begin adding an email notification:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/d0216d51-344b-4676-a23e-55ccfec627bf)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/select_email_action.png)
 
 Next, define the email recipient, and supply an informative subject and headline. You can also choose which object properties to include in the mail body.
 In the following example screen, a user sets up an email to an engineer to request that the engineer recharge the scooter with the low battery level:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/15af0711-c305-45c3-84db-29e0782967dd)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/fill_email_template.png)
 
 Before you activate your trigger, you’ll typically want to test it to make sure that the condition and the resulting email are correctly defined. To test your trigger, select the “Run Test” button:
 ![image](https://github.com/microsoft/dataActivator/assets/10352928/5288c53c-e677-4d03-af1f-b1ff78358beb)
