@@ -135,10 +135,10 @@ After adding an action you’ll see the toolbar change to allow you to start the
 As mentioned previously in this article, newly created properties are in a Draft state. When you save them (or when autosave happens), the current configuration of the property is still a draft. Selecting ‘Publish’ commits the property/trigger and moves it out of a draft state. Published properties can be re-used in other properties or triggers.
 
 If your property has an action, you also need to select Start from the toolbar for Data Activator to start running the trigger and taking action. 
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/540f4b98-b9ca-4b21-9f42-de84a1e45097)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/start_trigger.png)
 
 Once started, you’ll see ‘Running’ appears in the title area of the property.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/fcf7ce1c-7f1a-4415-8b6e-b6fa99369a4e)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/trigger_running.png)
 
 The toolbar will change to allow you to Stop the trigger. If you want to go back and make changes to the trigger (for example changing the condition it looks for) you need to select Edit from the ribbon, putting the property back into a Draft state.
 
