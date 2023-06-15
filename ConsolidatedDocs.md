@@ -184,7 +184,7 @@ After you start your trigger, Data Activator will publish the trigger to the “
  
 # End-to-end tutorial using simulated data
 If you don’t have access to a streaming data source, you can use simulated data to try out Data Activator. When you create a new reflex item, select Get Data and choose the Simulator option.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/2b12c8a7-ae42-4b6a-a4f9-6bfe32da5f69)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/get_data_simulator.png)
 
 Select Connect to continue.
 
@@ -192,7 +192,7 @@ You’ll see two new event streams created for Package and Driver data, and new 
 IMPORTANT: It can take up to 2 minutes for data to start appearing from the simulator.
 
 If you now go into Design mode, you’ll see two objects have already been created, with the simulated data streams connected.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/79889e28-43c5-4f35-b1ae-d1d98655344a)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/simulated_data_streams.png)
 
 Data will start appearing as the simulator runs. Let’s try creating a new property to track the temperature of packages, and send an email if any package gets too hot.
 Start by selecting New Property from the ribbon. Select the edit icon or the name of the new property to rename it from Untitled:
