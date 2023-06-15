@@ -115,8 +115,7 @@ Then, enter a name for your object.
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/name_object.png)
 
 When you create an object you’ll be navigated to Design mode with the event stream for the new object selected. The preview in the following image shows you the events that were received split out by the unique values from the ID column.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/b7214d25-c0b6-4f0a-87b3-aae215e2de24)
-
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/event_stream.png)
 By default the events for five random instances for the previous 24 hours are displayed in the chart. You can change this using the population selector and time selectors above the card.
 ## Creating properties and adding steps to analyze your data 
 Properties are aspects of an object that you want to monitor and respond to. You use the ‘New property’ button in the ribbon to create a new property. The new property appears as a draft called Untitled, with a Reference card as the first step in the property. ‘Cards’ represent the different steps or functions you use to manipulate the events and data to set up the conditions you want to monitor, and the actions you want Data Activator to take. 
