@@ -214,10 +214,10 @@ Well done, you’ve created your first property! We could immediately add an Act
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/choose_crosses_above.png)
 
 You’ll have to specify the threshold depending on the data your simulator created, but a threshold of 68-70 should generate some events:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/832572ca-1f4e-4e8c-b7b2-9a74696891a5)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/temperature_69.png)
 
 Finally, let’s add an action from the Act toolbar button.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/6321c3f1-ba2b-4951-9dfa-e066410c741a)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/action_from_act.png)
 
 Give the alert a Subject and Optional message if you want. In the preview, you should see dots representing times when an email would have been fired if the trigger was running. Select ‘Run Test’ on the toolbar to send a test message. Choosing Start will save the trigger and start monitoring the simulated data in the background.
 
