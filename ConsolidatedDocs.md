@@ -64,7 +64,8 @@ Next, define your trigger conditions and to create your trigger. In the “Creat
 4)	Choose “Continue.” This will create your Data Activator trigger and open it within your reflex item.
 
 Continuing with the example from step 1, the following image shows how you would create a trigger that will fire daily if the sales for any store drop below $60,000:
- ![image][(https://github.com/microsoft/dataActivator/blob/main/images/pbi_flyout.png)
+![image][(https://github.com/microsoft/dataActivator/blob/main/images/pbi_flyout.png)
+ 
 
 ## Step 3: Add an action to your trigger.
 The final step is to define the notification that Data Activator should provide when your trigger fires.  To add an email or Teams notification to your trigger, follow the steps described in the “Adding an action to your trigger” section. 
