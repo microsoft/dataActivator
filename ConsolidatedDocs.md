@@ -204,13 +204,13 @@ The first step is to extract the temperature value from the events. From the too
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/value_from_event.png)
 
 On the new Select card, choose Temperature from the Value dropdown menu
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/eb02bdf2-f89c-489e-8812-3a9cdd9d349a)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/choose_temperature.png)
 
 This will give you a chart showing the temperature of each package.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/ac9df8f9-f521-43ac-860e-aca7f909aae8)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/temperature_chart.png)
 
 Well done, you’ve created your first property! We could immediately add an Act step after this and send an email each time an event is received, but we probably want to only send an alert when a certain threshold is crossed. The ‘Crosses above’ step lets us detect when that happens. Select it from the Detect button in the toolbar;
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/6bdb88df-31a8-42c6-8f10-71461123eb55)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/choose_crosses_above.png)
 
 You’ll have to specify the threshold depending on the data your simulator created, but a threshold of 68-70 should generate some events:
  ![image](https://github.com/microsoft/dataActivator/assets/10352928/832572ca-1f4e-4e8c-b7b2-9a74696891a5)
