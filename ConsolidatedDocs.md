@@ -200,7 +200,7 @@ Start by selecting New Property from the ribbon. Select the edit icon or the nam
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/rename_stream.png)
 
 The first step is to extract the temperature value from the events. From the toolbar at the bottom of the screen, choose Select -> Value from event.
- ![image](https://github.com/microsoft/dataActivator/blob/main/images/select_value.png)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/value_from_event.png)
 
 On the new Select card, choose Temperature from the Value dropdown menu
  ![image](https://github.com/microsoft/dataActivator/assets/10352928/eb02bdf2-f89c-489e-8812-3a9cdd9d349a)
