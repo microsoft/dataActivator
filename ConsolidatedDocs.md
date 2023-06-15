@@ -160,9 +160,11 @@ In this screenshot, the user is monitoring a fleet of electric scooters, and wan
 
 Next, define the email recipient, and supply an informative subject and headline. You can also choose which object properties to include in the mail body.
 In the following example screen, a user sets up an email to an engineer to request that the engineer recharge the scooter with the low battery level:
+
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/fill_email_template.png)
 
 Before you activate your trigger, you’ll typically want to test it to make sure that the condition and the resulting email are correctly defined. To test your trigger, select the “Run Test” button:
+
 ![image](https://github.com/microsoft/dataActivator/blob/main/images/run_test.png)
 
  
