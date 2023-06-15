@@ -175,6 +175,7 @@ NOTE: To send a test mail, you will need to select at least 1 object instance fo
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/test_action_email.png)
 
 Finally, once you are satisfied with the test mail, you can activate your trigger by pressing “Start”. Confirm the action by pressing “Continue” to activate your trigger.
+
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/start_trigger.png)
 
 At this point, your trigger is active, and Data Activator will send a mail to the specified recipient whenever the trigger condition is met.
