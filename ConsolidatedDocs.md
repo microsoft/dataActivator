@@ -209,7 +209,8 @@ On the new Select card, choose Temperature from the Value dropdown menu
 This will give you a chart showing the temperature of each package.
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/temperature_chart.png)
 
-Well done, you’ve created your first property! We could immediately add an Act step after this and send an email each time an event is received, but we probably want to only send an alert when a certain threshold is crossed. The ‘Crosses above’ step lets us detect when that happens. Select it from the Detect button in the toolbar;
+Well done, you’ve created your first property! We could immediately add an Act step after this and send an email each time an event is received, but we probably want to only send an alert when a certain threshold is crossed. The ‘Crosses above’ step lets us detect when that happens. Select it from the Detect button in the toolbar.
+
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/choose_crosses_above.png)
 
 You’ll have to specify the threshold depending on the data your simulator created, but a threshold of 68-70 should generate some events:
