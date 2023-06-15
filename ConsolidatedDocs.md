@@ -106,9 +106,11 @@ Within a few seconds, your event hubs events will appear in your newly created e
 Once you have an event stream bringing data into Data Activator, the next step is to create an object starting from the object ID. The object ID is a field that uniquely identifies an instance of the object, for example and employee ID or device ID.
 
 In the Data view, select Create object from the menu on the column in the data preview.
+
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/table_create_object.png)
 
 Then, enter a name for your object.
+
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/name_object.png)
 
 When you create an object you’ll be navigated to Design mode with the event stream for the new object selected. The preview in the following image shows you the events that were received split out by the unique values from the ID column.
