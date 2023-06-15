@@ -64,7 +64,7 @@ Next, define your trigger conditions and to create your trigger. In the “Creat
 4)	Choose “Continue.” This will create your Data Activator trigger and open it within your reflex item.
 
 Continuing with the example from step 1, the following image shows how you would create a trigger that will fire daily if the sales for any store drop below $60,000:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/6726724b-c31d-49d0-957d-1c786f97cd2e)
+ ![image][(https://github.com/microsoft/dataActivator/blob/main/images/pbi_flyout.png)
 
 ## Step 3: Add an action to your trigger.
 The final step is to define the notification that Data Activator should provide when your trigger fires.  To add an email or Teams notification to your trigger, follow the steps described in the “Adding an action to your trigger” section. 
@@ -86,7 +86,7 @@ TIP: Azure Event Hubs has namespaces. Within each namespace are one or more inst
 3)	Select (or create) an access policy with at least “Listen” permission.
 4)	Copy the access policy’s primary connection string to your clipboard.
 The following image shows the Azure Event Hubs dialog that contains the connection string:
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/c4436f20-47f7-4166-9711-a381e50e8c5f)
+ ![image](https://github.com/microsoft/dataActivator/blog/main/images/eh_sas_policy.png)
 
 ## Step 2: Connect your reflex item to your Azure Event Hubs instance.
 1)	Within your reflex item’s “Data” tab, select “Get Data” 
@@ -94,7 +94,7 @@ The following image shows the Azure Event Hubs dialog that contains the connecti
 3)	Give your event stream a name
 4)	Optionally provide a consumer group, if you do not wish to use the Default group
 5)	Click “Connect.”
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/228e6abc-34e5-40ba-948b-d2863869f8f5)
+ ![image](https://github.com/microsoft/dataActivator/blog/main/images/get_data_eh.png)
 
 Within a few seconds, your event hubs events will appear in your newly created event stream.
 
@@ -104,7 +104,7 @@ Within a few seconds, your event hubs events will appear in your newly created e
 Once you have an event stream bringing data into Data Activator, the next step is to create an object starting from the object ID. The object ID is a field that uniquely identifies an instance of the object, for example and employee ID or device ID.
 
 In the Data view, select Create object from the menu on the column in the data preview.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/436f492e-6a54-46d1-a694-8e49cf3afccc)
+ ![image](https://github.com/microsoft/dataActivator/blog/main/images/table_create_object.png)
 
 Then, enter a name for your object.
  ![image](https://github.com/microsoft/dataActivator/assets/10352928/7a45adf7-9437-4456-8ee9-1b0d3a52cde4)
