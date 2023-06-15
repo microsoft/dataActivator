@@ -163,17 +163,17 @@ In the following example screen, a user sets up an email to an engineer to reque
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/fill_email_template.png)
 
 Before you activate your trigger, you’ll typically want to test it to make sure that the condition and the resulting email are correctly defined. To test your trigger, select the “Run Test” button:
-![image](https://github.com/microsoft/dataActivator/assets/10352928/5288c53c-e677-4d03-af1f-b1ff78358beb)
+![image](https://github.com/microsoft/dataActivator/blob/main/images/run_test.png)
 
  
 This will generate a test email like the one shown below. To generate the data for the test mail, Data Activator will select one object from your input data for which the trigger condition is true and will send a test mail for that object. The test email will go to you, regardless of who you have specified as the recipient in the email card.
 
 NOTE: To send a test mail, you will need to select at least 1 object instance for which the trigger condition is true. If the “Run Test” button is disabled, then use the object selector to select an object for which the condition is true.
 
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/9a869ad4-f6ee-427c-aa7b-11ef3d189bf6)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/test_action_email.png)
 
 Finally, once you are satisfied with the test mail, you can activate your trigger by pressing “Start”. Confirm the action by pressing “Continue” to activate your trigger.
- ![image](https://github.com/microsoft/dataActivator/assets/10352928/234158b9-d426-4cfd-9339-5ec606ef27de)
+ ![image](https://github.com/microsoft/dataActivator/blob/main/images/start_trigger.png)
 
 At this point, your trigger is active, and Data Activator will send a mail to the specified recipient whenever the trigger condition is met.
 
