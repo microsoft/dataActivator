@@ -16,7 +16,7 @@ Some common use cases are:
 
 # FAQ: Things to know before using Data Activator
 Data Activator is currently in a preview state where we are actively looking for feedback on, and rapidly making changes to, the product. There may be issues or gaps in the product, and there are some requirements before you can fully use Data Activator:
-* You need to be signed up for the Microsoft Fabric preview. Learn more about that [here]((https://learn.microsoft.com/fabric/get-started/fabric-trial)). 
+* You need to be signed up for the Microsoft Fabric preview. Learn more about that [here](https://learn.microsoft.com/fabric/get-started/fabric-trial). 
 * You need to have a workspace assigned to a Premium capacity to put the reflex items in. You can sign up for a trial capacity - the link above shows how to do this.
 * If you're using Data Activator to alert against data in Power BI reports, make sure you start the trial from the workspace. If you try to create a trigger before the workspace is in a Premium capacity, you'll get a failure message.
 * During this private preview, Data Activator is only available in the following Azure regions: Australia Southeast, Canada Central, East US, East US 2, North Central US, North Europe, West Europe, West US. Other regions will be enabled later in CY 2023.
