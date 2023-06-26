@@ -21,6 +21,15 @@ Data Activator is currently in a preview state where we are actively looking for
 * If you're using Data Activator to alert against data in Power BI reports, make sure you start the trial from the workspace. If you try to create a trigger before the workspace is in a Premium capacity, you'll get a failure message.
 * During this private preview, Data Activator is only available in the following Azure regions: Australia Southeast, Canada Central, East US, East US 2, North Central US, North Europe, West Europe, West US. Other regions will be enabled later in CY 2023.
 
+## Enable Data Activator private preview 
+NOTE: Read _FAQ: Things to know before using Data Activator_
+Before you can use Data Activator, your Power BI Admin needs to enable Data Activator private preview for the tenant. Your Power BI admin can follow these steps to enable private preview.
+1. Sign in to Power BI or Fabric using your admin account credentials
+2. Click on **Settings** from the page header. Click on **Admin portal**
+![image](https://github.com/microsoft/dataActivator/blob/main/images/power_bi_settings_menu.png)
+3. Select **Tenant settings** from the left navigation pane.
+4. Expand the **Trident private preview** setting. 
+
 ## Reflex items in Fabric
 A reflex item holds all the information necessary to connect to data, monitor for conditions, and act. You’ll typically create a reflex item for each business process or area you’re monitoring.
 To get started, you create a reflex item in your Fabric workspace. From the New menu in the workspace, choose the reflex item.
