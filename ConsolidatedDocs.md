@@ -136,13 +136,12 @@ When you create an object you’ll be navigated to Design mode with the event st
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/event_stream.png)
 By default the events for five random instances for the previous 24 hours are displayed in the chart. You can change this using the population selector and time selectors above the card.
 ## Creating properties and adding steps to analyze your data 
-Properties are aspects of an object that you want to monitor and respond to. You use the ‘New property’ button in the ribbon to create a new property. The new property appears as a draft called Untitled, with a Reference card as the first step in the property. ‘Cards’ represent the different steps or functions you use to manipulate the events and data to set up the conditions you want to monitor, and the actions you want Data Activator to take. 
+Properties are aspects of an object that you want to monitor and respond to. You use the ‘New property’ button in the ribbon to create a new property. The new property appears called Untitled, with a Property Field Reference card as the first step in the property. ‘Cards’ represent the different steps or functions you use to manipulate the events and data to set up the conditions you want to monitor, and the actions you want Data Activator to take. 
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/event_stream_draft.png)
 
-The reference card brings in either an event stream, or the output of another property as the starting point for your new property.
+The property field reference card brings in either a column from an event stream, or the output of another property as the starting point for your new property.
 
-The buttons in the ‘Add new step’ toolbar let you add new cards to manipulate the event data. For example, the most common first step will be to use ‘Select > Value from event’ to extract the value of a field from each event.
-  ![image](https://github.com/microsoft/dataActivator/blob/main/images/select_value.png)
+The buttons in the ‘Add new step’ toolbar let you add new cards to manipulate the event data. For example, you might summarize the values from a column in an event stream by taking an average over a 5 minute window.
 
 The chart on the card shows the output of the card's function (e.g. Grouping, comparisons, change detection). Each point on the chart shows when an action would be taken if you were to attach an action card immediately afterwards. 
 ## Adding actions 
@@ -150,17 +149,15 @@ Once you have a card showing the points at which you want an action take, you ca
 
 After adding an action you’ll see the toolbar change to allow you to start the trigger, or test the action. Testing the action will use the latest data from the property and pass those values to the email/Teams message.
 ## Property and trigger lifecycle
-As mentioned previously in this article, newly created properties are in a Draft state. When you save them (or when autosave happens), the current configuration of the property is still a draft. Selecting ‘Publish’ commits the property/trigger and moves it out of a draft state. Published properties can be re-used in other properties or triggers.
-
-If your property has an action, you also need to select Start from the toolbar for Data Activator to start running the trigger and taking action. 
+Properties or Triggers are created in a 'Stopped' state. This means they're not being evaluated as data flows into the system, and won't take any actions as a result. You also need to select Start from the toolbar for Data Activator to start running the trigger and taking action. 
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/start_trigger.png)
 
 Once started, you’ll see ‘Running’ appears in the title area of the property.
  ![image](https://github.com/microsoft/dataActivator/blob/main/images/trigger_running.png)
 
-The toolbar will change to allow you to Stop the trigger. If you want to go back and make changes to the trigger (for example changing the condition it looks for) you need to select Edit from the ribbon, putting the property back into a Draft state.
+The toolbar will change to allow you to Stop the trigger. If you make changes to the trigger (for example changing the condition it looks for), you need to select Update in the toolbar to make sure that the running trigger uses the new values.
 
-
+When you delete a trigger (or Object) it can take up to 5 minutes for any back-end processing of data to complete. This means your trigger may continue to monitor data, and take actions accordingly, for a few minutes after it has been deleted.
  
 # Adding an action to your trigger
 Once you’ve defined a trigger condition, you’ll want to set up an action for Data Activator to take when the trigger condition is met. Data Activator can take three types of action:
