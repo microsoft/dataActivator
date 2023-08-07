@@ -48,14 +48,14 @@ Data being observed from Power BI is also treated as an event stream. In this ca
 The business objects that you want to monitor could be physical objects like Freezers, Vehicles, Packages, Users, etc. or less tangible concepts like Advertising Campaigns, Accounts, User Sessions. In your reflex item, you model the object by connecting one or more event streams, choosing a column from the object ID, and specifying the fields you want to make properties of the object.
 The term ‘object instance’ means a specific Freezer/Vehicle/Package etc. whereas ‘object’ is typically used for the definition or class of object. We talk about the ‘population’ to refer to all the object instances.
 
+### Triggers
+Triggers contain the logic that describes the values you want to monitor over time, the conditions that you want to watch for, and the actions to take as a result. We call these three steps 'Select', 'Detect', and 'Act'.
+* Select a value from the events to monitor, and apply any smoothing or filtering to the raw data.
+* Detect when the value goes above/below a threshold, or changes to/from a value etc. These conditions may fire the trigger every time, or only if they occur, say, 5 times in an hour.
+* Act by sending an alert message, starting a workflow or other action.
+ 
 ### Properties
-Properties are used to model:
-*	the attributes of the object
-* functions you apply to the value of the attributes
-*	conditions you want to monitor and detect
-*	actions you want Data Activator to take when conditions are met
-Properties can use any one or more of these, and none are required. For example, you might select the temperature value from an event, and apply a function to smooth it over five minute windows. That ‘Smoothed temperature’ property could be reused in many other places around your project. You might build a second property that takes 'Smoothed Temperature’ and sends an email when it goes over 90 degrees Fahrenheit.
-
+Properties allow modeling of attributes of the objects you care about, for re-use in many triggers. For example, you might select the temperature value from an event, and apply a function to smooth it over five minute windows. That ‘Smoothed temperature’ property could be reused in many other places around your project. You might build one trigger that takes 'Smoothed Temperature’ and sends an email when it goes over 90 degrees Fahrenheit, and one trigger that sends a Teams message if it goes over 110.
 
 # Get Started from a Power BI report
 You can use Data Activator to trigger notifications when conditions are met about data in a Power BI report. For example, given a report displaying daily sales per store, you could send a notification at the end of the day if daily sales for any store fall beneath a threshold. You can send notifications to yourself, or to others in your organization. This section explains how notifications can be created and triggered.
