@@ -122,7 +122,7 @@ Within a few seconds, your event hubs events will appear in your newly created e
 
 # Working with Data Activator’s object model
 ## Creating objects
-Once you have an event stream bringing data into Data Activator, the next step is to create an object starting from the object ID. The object ID is a field that uniquely identifies an instance of the object, for example and employee ID or device ID.
+Once you have an event stream bringing data into Data Activator, the next step is to create an object starting from the object ID. The object ID is a field that uniquely identifies an instance of the object, for example and employee ID or device ID. Note that IDs are case sensitive, so for example "Contoso Ltd." and "Contoso LTD." would be considered different objects.
 
 In the Data view, select Create object from the menu on the column in the data preview.
 
