@@ -297,6 +297,8 @@ You use the ‘New trigger’ button in the ribbon to create a new trigger.
 You can give it a name by clicking the name of the trigger and editing
 it.
 
+![](./images/createtrigger-step1.png)
+
 #### Step 2: Select your data
 
 The next step is to select the value for the trigger. You can either
@@ -304,8 +306,12 @@ choose from a column from an event, or from a property you’ve already
 defined. (See [Create Properties](#create-properties) for information
 on properties.)
 
+![](./images/createtrigger-step2.png)
+
 Once you select a column or property, you see a preview of the values
 for a sample of the instances of the object.
+
+![](./images/createtrigger-step2b.png)
 
 #### Step 3: Define the condition to detect
 
@@ -316,7 +322,13 @@ true/false value changes (e.g. HasFault becomes True), or when a string
 value changes (e.g. Status changes from InCompliance). See [Detection conditions in triggers and properties](#detection-conditions-in-triggers-and-properties) for
 more details.
 
-The Detect card then shows two charts:
+![](./images/createtrigger-step3.png)
+
+
+The **Detect** card then shows two charts:
+
+![](./images/createtrigger-step3b.png)
+
 
 The first shows, for the 5 sampled instances, when the condition was
 detected. In the screenshot above the instance labeled in yellow,
@@ -327,14 +339,19 @@ fired, for all instances that Data Activator is tracking. There are two
 spikes, around 5am and 7am, where the alert was fired 4 times. These
 might not be from the 5 instances sampled in the other charts.
 
+
 #### Step 4: Define the action to take
 
 Finally, the act card lets you choose what to do when the condition is
 detected.
 
+![](./images/createtrigger-step4.png)
+
 Different action types will have different parameters, such as the email
 address you want to send to, the workflow you want to start, subject
 line or additional information etc.
+
+![](./images/createtrigger-step4b.png)
 
 ### Test your trigger
 
