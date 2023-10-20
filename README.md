@@ -1,3 +1,6 @@
+# This repo is now deprecated. 
+# Up-to-date documentation can be found at https://aka.ms/dataActivatorDocs
+
 ## Microsoft Fabric Data Activator
 
 Microsoft Fabric and Data Activator are currently in PREVIEW. See the Supplemental Terms of Use for Microsoft Azure Previews for legal terms that apply to Azure features that are in beta, preview, or otherwise not yet released into general availability.
