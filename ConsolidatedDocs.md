@@ -1,7 +1,9 @@
-# Overview – what is Data Activator?
+# This document is now deprecated
+Up-to-date documentation can be found at https://aka.ms/dataActivatorDocs
+
 
 Microsoft Fabric and Data Activator are currently in PREVIEW. See the Supplemental Terms of Use for Microsoft Azure Previews for legal terms that apply to Azure features that are in beta, preview, or otherwise not yet released into general availability.
-# What is Data Activator?
+### What is Data Activator?
 Data Activator is a no-code tool for automatically taking actions when patterns or conditions are detected in changing data. It monitors data in Power BI reports and Event Hub data streams, for when the data hits certain thresholds or matches other patterns. It then automatically takes appropriate action such as alerting users or kicking off Power Automate workflows.
 
 Data Activator allows customers to build a digital nervous system that acts across all their data, at scale and in a timely manner. Business users can describe business conditions in a no-code experience to launch actions such as Email, Teams notifications, Power Automate flows and call into 3rd party action system. Business users can self-serve their needs and reduce their reliance on internal IT and/or developer teams, either of which is often costly and hinders agility. Customer organizations don’t need a developer team to manage and maintain custom in-house monitoring or alerting solutions.
@@ -14,14 +16,14 @@ Some common use cases are:
 *	Alert account teams when customers fall into arrears, with customized time or value limits per customer.
 *	Track data pipeline quality, either re-running jobs or alerting when pipelines fail or anomalies are detected.
 
-# FAQ: Things to know before using Data Activator
+### FAQ: Things to know before using Data Activator
 Data Activator is currently in a preview state where we are actively looking for feedback on, and rapidly making changes to, the product. There may be issues or gaps in the product, and there are some requirements before you can fully use Data Activator:
 * You need to be signed up for the Microsoft Fabric preview. Learn more about that [here](https://learn.microsoft.com/fabric/get-started/fabric-trial). 
 * You need to have a workspace assigned to a Premium capacity to put the reflex items in. You can sign up for a trial capacity - the link above shows how to do this.
 * If you're using Data Activator to alert against data in Power BI reports, make sure you start the trial from the workspace. If you try to create a trigger before the workspace is in a Premium capacity, you'll get a failure message.
 * During this private preview, Data Activator is only available in the following Azure regions: Australia Southeast, Canada Central, East US, East US 2, North Central US, North Europe, West Europe, West US. Other regions will be enabled later in CY 2023.
 
-## Enable Data Activator private preview 
+### Enable Data Activator private preview 
 NOTE: Read _FAQ: Things to know before using Data Activator_
 Before you can use Data Activator, your Power BI Admin needs to enable Data Activator private preview for the tenant. Your Power BI admin can follow these steps to enable private preview.
 1. Sign in to Power BI or Fabric using your admin account credentials
@@ -32,7 +34,7 @@ Before you can use Data Activator, your Power BI Admin needs to enable Data Acti
 ![image](https://github.com/microsoft/dataActivator/blob/main/images/private_preview_tenant_setting.png)
 6. Enable the setting. You can choose to have it enabled for your entire organization or a limited set of users using a security group.
 
-## Reflex items in Fabric
+### Reflex items in Fabric
 A reflex item holds all the information necessary to connect to data, monitor for conditions, and act. You’ll typically create a reflex item for each business process or area you’re monitoring.
 To get started, you create a reflex item in your Fabric workspace. From the New menu in the workspace, choose the reflex item.
 You’ll connect to a data source and choose the data stream you want to monitor (e.g. an IoT (Internet of Things) device feed, a sensor feed, or an application telemetry stream). You create the business objects that your stream represents, such as a Freezer, Vehicle, Application, or Order. Then, define properties on the objects such as temperature, speed, sales amount. Next, specify the conditions you want Data Activator to look for (e.g. temperature below zero degrees, or speed above 60mph). Finally, you tell Data Activator what action to take as a result such as sending a Teams or email message, or starting a Power Automate workflow.
